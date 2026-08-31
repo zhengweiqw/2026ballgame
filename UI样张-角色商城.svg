@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#A5EDFF"/>
+      <stop offset="0.48" stop-color="#E6F9E5"/>
+      <stop offset="1" stop-color="#FAFFD9"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EBFF58"/>
+      <stop offset="1" stop-color="#A9F33B"/>
+    </linearGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#D5F5DF" stop-opacity="0.86"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#174A46" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="1280" rx="48" fill="url(#bg)"/>
+  <circle cx="92" cy="240" r="110" fill="#FFFFFF" opacity="0.24"/>
+  <circle cx="655" cy="380" r="150" fill="#DFFF4F" opacity="0.18"/>
+  <path d="M0 1080 C140 1010 238 1110 360 1042 C480 976 594 1057 720 980 L720 1280 L0 1280 Z" fill="#66C996" opacity="0.22"/>
+
+  <!-- header -->
+  <g font-family="Microsoft YaHei, sans-serif">
+    <circle cx="62" cy="67" r="32" fill="#FFFFFF" opacity="0.9" filter="url(#shadow)"/>
+    <path d="M73 49 L54 67 L73 85" fill="none" stroke="#173D43" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="360" y="82" text-anchor="middle" fill="#173D43" font-size="40" font-weight="900">�rF�</text>
+    <rect x="445" y="35" width="112" height="60" rx="30" fill="#173D43" opacity="0.92"/>
+    <circle cx="478" cy="65" r="20" fill="#FFD454"/>
+    <text x="512" y="75" fill="#FFFFFF" font-size="23" font-weight="800">1250</text>
+    <rect x="570" y="35" width="116" height="60" rx="30" fill="#173D43" opacity="0.92"/>
+    <path d="M595 48 L615 48 L627 63 L605 84 L583 63 Z" fill="#48D9FF"/>
+    <text x="638" y="75" fill="#FFFFFF" font-size="23" font-weight="800">50</text>
+  </g>
+
+  <!-- tabs -->
+  <g transform="translate(54 122)" font-family="Microsoft YaHei, sans-serif" font-size="25" font-weight="800" text-anchor="middle">
+    <rect width="612" height="70" rx="35" fill="#FFFFFF" opacity="0.72"/>
+    <rect x="6" y="6" width="196" height="58" rx="29" fill="url(#lime)"/>
+    <text x="104" y="45" fill="#173D43">�r</text>
+    <text x="306" y="45" fill="#5D807E">��</text>
+    <text x="510" y="45" fill="#5D807E"><</text>
+  </g>
+
+  <!-- character stage -->
+  <g filter="url(#shadow)">
+    <rect x="54" y="218" width="612" height="444" rx="54" fill="url(#stage)"/>
+    <circle cx="360" cy="425" r="172" fill="#B8F2D1" opacity="0.65"/>
+    <ellipse cx="360" cy="588" rx="160" ry="36" fill="#357765" opacity="0.18"/>
+    <ellipse cx="360" cy="568" rx="150" ry="37" fill="#DBFF77"/>
+  </g>
+
+  <!-- black-golden cat preview -->
+  <g transform="translate(360 306)" filter="url(#shadow)">
+    <ellipse cx="0" cy="198" rx="100" ry="90" fill="#382F35"/>
+    <circle cx="0" cy="91" r="102" fill="#463A3D"/>
+    <path d="M-86 40 L-93 -46 L-28 12 Z" fill="#2B2730"/>
+    <path d="M86 40 L93 -46 L28 12 Z" fill="#2B2730"/>
+    <path d="M-46 50 Q0 14 46 50 L42 135 Q0 169 -42 135 Z" fill="#CE9B52"/>
+    <ellipse cx="0" cy="126" rx="48" ry="35" fill="#E3BD72"/>
+    <circle cx="-40" cy="87" r="15" fill="#F5C84E"/><circle cx="40" cy="87" r="15" fill="#F5C84E"/>
+    <circle cx="-40" cy="87" r="7" fill="#173D43"/><circle cx="40" cy="87" r="7" fill="#173D43"/>
+    <path d="M-11 117 L11 117 L0 132 Z" fill="#E89094"/>
+    <path d="M-21 145 Q0 161 21 145" fill="none" stroke="#173D43" stroke-width="7" stroke-linecap="round"/>
+    <rect x="-86" y="167" width="172" height="25" rx="12" fill="#DFFF4F"/>
+    <circle cx="0" cy="191" r="14" fill="#FFD24D"/>
+    <rect x="-72" y="265" width="47" height="65" rx="23" fill="#CE9B52"/>
+    <rect x="25" y="265" width="47" height="65" rx="23" fill="#CE9B52"/>
+    <path d="M90 210 Q150 200 131 138" fill="none" stroke="#382F35" stroke-width="30" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Microsoft YaHei, sans-serif" text-anchor="middle">
+    <text x="360" y="633" fill="#173D43" font-size="30" font-weight="900">��B+</text>
+    <rect x="516" y="247" width="116" height="44" rx="22" fill="#173D43"/>
+    <text x="574" y="278" fill="#DFFF4F" font-size="20" font-weight="800">��</text>
+    <path d="M175 414 l-22 22 22 22 M545 414 l22 22-22 22" fill="none" stroke="#173D43" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  </g>
+
+  <!-- skin cards -->
+  <text x="54" y="718" fill="#173D43" font-size="30" font-weight="900" font-family="Microsoft YaHei, sans-serif">	��</text>
+  <g font-family="Microsoft YaHei, sans-serif" text-anchor="middle" filter="url(#shadow)">
+    <g transform="translate(54 748)">
+      <rect width="142" height="224" rx="30" fill="#FFFFFF" opacity="0.92"/>
+      <circle cx="71" cy="77" r="48" fill="#D7F5D0"/>
+      <circle cx="71" cy="75" r="33" fill="#E99B3E"/>
+      <path d="M44 66 L48 38 L63 57 M98 66 L94 38 L79 57" fill="#C46C2A"/>
+      <ellipse cx="71" cy="87" rx="16" ry="12" fill="#FFF0D3"/>
+      <text x="71" y="148" fill="#173D43" font-size="21" font-weight="900">��</text>
+      <circle cx="47" cy="187" r="15" fill="#FFD454"/>
+      <text x="91" y="196" fill="#173D43" font-size="22" font-weight="800">800</text>
+    </g>
+    <g transform="translate(210 748)">
+      <rect width="142" height="224" rx="30" fill="#FFFFFF" opacity="0.92"/>
+      <circle cx="71" cy="77" r="48" fill="#DDE8FF"/>
+      <circle cx="71" cy="75" r="34" fill="#E9EDF1"/>
+      <path d="M43 65 L48 38 L62 57 M99 65 L94 38 L80 57" fill="#3A414E"/>
+      <path d="M48 65 Q71 45 94 65 L84 88 H58 Z" fill="#3A414E"/>
+      <text x="71" y="148" fill="#173D43" font-size="21" font-weight="900">��G</text>
+      <path d="M37 176 L55 176 L66 189 L46 209 L26 189 Z" fill="#48D9FF"/>
+      <text x="96" y="196" fill="#173D43" font-size="22" font-weight="800">30</text>
+    </g>
+    <g transform="translate(366 748)">
+      <rect width="142" height="224" rx="30" fill="#FFFFFF" opacity="0.92"/>
+      <circle cx="71" cy="77" r="48" fill="#EAE3FF"/>
+      <circle cx="71" cy="75" r="34" fill="#7C8EAA"/>
+      <path d="M44 65 L48 38 L64 57 M98 65 L94 38 L78 57" fill="#60718D"/>
+      <circle cx="59" cy="75" r="5" fill="#FFD454"/><circle cx="83" cy="75" r="5" fill="#FFD454"/>
+      <text x="71" y="148" fill="#173D43" font-size="21" font-weight="900">��</text>
+      <rect x="24" y="172" width="94" height="36" rx="18" fill="#DFFF4F"/>
+      <text x="71" y="197" fill="#173D43" font-size="17" font-weight="800">J</text>
+    </g>
+    <g transform="translate(522 748)">
+      <rect width="142" height="224" rx="30" fill="#173D43" stroke="#DFFF4F" stroke-width="6"/>
+      <circle cx="71" cy="77" r="48" fill="#E8D59C"/>
+      <circle cx="71" cy="75" r="34" fill="#42363B"/>
+      <path d="M45 65 L49 38 L64 57 M97 65 L93 38 L78 57" fill="#29262E"/>
+      <ellipse cx="71" cy="87" rx="17" ry="13" fill="#D8A65E"/>
+      <text x="71" y="148" fill="#FFFFFF" font-size="19" font-weight="900">��+</text>
+      <rect x="25" y="172" width="92" height="36" rx="18" fill="#DFFF4F"/>
+      <text x="71" y="197" fill="#173D43" font-size="17" font-weight="800">(-</text>
+    </g>
+  </g>
+
+  <!-- action -->
+  <g filter="url(#shadow)" font-family="Microsoft YaHei, sans-serif">
+    <rect x="108" y="1032" width="504" height="108" rx="54" fill="url(#lime)" stroke="#FFFFFF" stroke-width="6"/>
+    <text x="360" y="1100" text-anchor="middle" fill="#173D43" font-size="40" font-weight="900">��</text>
+    <text x="360" y="1178" text-anchor="middle" fill="#507775" font-size="21" font-weight="700">��Ѩ��r � ��aGb�</text>
+  </g>
+
+  <rect x="270" y="1238" width="180" height="8" rx="4" fill="#173D43" opacity="0.38"/>
+</svg>
